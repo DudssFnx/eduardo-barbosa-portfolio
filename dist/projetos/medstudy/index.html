@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#090811" />
+  <meta name="description" content="MedStudy: uma plataforma educacional Full Stack voltada a estudantes de Medicina, com revisão inteligente, simulados, flashcards e gamificação. Estudo de caso de Eduardo Barbosa." />
+  <title>MedStudy — Estudo de caso | Eduardo Barbosa</title>
+  <link rel="canonical" href="https://eduardo-barbosa-fullstack-2026.dudsfnx02.chatgpt.site/projetos/medstudy/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="MedStudy — Plataforma para estudantes de Medicina | Eduardo Barbosa" />
+  <meta property="og:description" content="Da necessidade real de uma estudante de Medicina à plataforma de estudo com questões, flashcards e revisão inteligente." />
+  <meta property="og:url" content="https://eduardo-barbosa-fullstack-2026.dudsfnx02.chatgpt.site/projetos/medstudy/" />
+  <meta property="og:image" content="https://eduardo-barbosa-fullstack-2026.dudsfnx02.chatgpt.site/assets/medstudy-dashboard.png" />
+  <meta property="og:image:alt" content="Dashboard da plataforma MedStudy para estudantes de Medicina" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/projetos/ck-precifica/project.css?v=1" />
+  <link rel="stylesheet" href="/projetos/cases.css?v=1" />
+  <script src="/projetos/cases.js?v=2" defer></script>
+</head>
+<body class="case-medstudy" data-project="medstudy">
+  <div class="progress" id="progress" aria-hidden="true"></div><div class="ambient" aria-hidden="true"></div>
+  <header class="header"><nav class="navigation container" aria-label="Navegação do estudo de caso"><a class="identity" href="/#projetos"><span class="identity-signature">Eduardo <em>Barbosa.</em></span></a><div class="nav-middle"><a href="#visao-geral">Visão geral</a><a href="#origem">Origem</a><a href="#galeria">Galeria</a><a href="#arquitetura">Arquitetura</a></div><a class="back-link" href="/#medstudy">← Portfólio</a></nav></header>
+  <main>
+    <section class="hero container" id="visao-geral">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> ESTUDO DE CASO 01 / PROJETO INDEPENDENTE</div>
+        <div class="hero-category">MEDICINA <span>×</span> TECNOLOGIA EDUCACIONAL</div>
+        <h1>Med<span>Study.</span></h1>
+        <p class="hero-lead">Um espaço para estudantes de Medicina <strong>aprenderem, praticarem e revisarem melhor.</strong></p>
+        <p class="hero-description">O MedStudy nasceu de uma necessidade real: minha namorada, estudante de Medicina, tinha dificuldade em encontrar um ambiente de estudo adequado para reunir materiais, praticar questões e organizar revisões. Transformei essa dor em uma plataforma Full Stack que conecta o aprendizado em um só lugar.</p>
+        <div class="hero-tags"><span>React</span><span>TypeScript</span><span>TanStack</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div>
+        <div class="hero-actions"><a class="primary-button" href="#origem">Conhecer a história ↗</a><a class="quiet-button" href="#galeria">Explorar telas ↓</a></div>
+      </div>
+      <div class="hero-visual"><div class="hero-visual-head"><span><i></i> MEDSTUDY / V3</span><span>EM EVOLUÇÃO</span></div><img src="/assets/medstudy-dashboard.png" alt="Dashboard real do MedStudy com revisões e indicadores de estudo" /><div class="hero-visual-foot"><span>JORNADA DO ESTUDANTE</span><span>CAPTURA REAL DO PRODUTO</span></div></div>
+    </section>
+    <div class="summary container"><div><span>01 / ORGANIZAR</span><strong>Conteúdos médicos</strong><p>Materiais por tema e especialidade.</p></div><div><span>02 / PRATICAR</span><strong>Questões e simulados</strong><p>Treino e diagnóstico de erros.</p></div><div><span>03 / REVISAR</span><strong>Flashcards e SRS</strong><p>Retenção de longo prazo.</p></div><div><span>04 / EVOLUIR</span><strong>Gamificação</strong><p>Progresso, XP e Arena.</p></div></div>
+
+    <section class="section container context-section" id="origem"><div class="section-side"><span class="section-label">01 / A ORIGEM</span><div class="side-line"></div></div><div class="section-content">
+      <h2>Começou com uma dificuldade <span>dentro de casa.</span></h2>
+      <div class="context-grid"><p>Minha namorada cursa Medicina e sentia falta de um local de estudo que realmente acompanhasse a rotina do curso. Anotações, conteúdos extensos, questões e revisões ficavam espalhados, tornando mais difícil organizar o que estudar e perceber o que precisava ser reforçado.</p><p>O MedStudy surgiu dessa conversa e dessa observação: por que não reunir as etapas da aprendizagem médica em um ambiente planejado para elas? A ideia evoluiu de uma ferramenta de estudo para um produto com biblioteca, simulados, flashcards, revisão inteligente, dashboards e experiências de engajamento.</p></div>
+      <div class="statement"><span>O PROBLEMA QUE MOTIVOU O PRODUTO</span><strong>Para estudar Medicina, não basta guardar conteúdo. É preciso conseguir praticar, identificar dificuldades e voltar ao assunto certo no momento adequado.</strong></div>
+    </div></section>
+
+    <section class="section container gallery-section" id="galeria"><div class="section-heading"><div><span class="section-label">02 / PRODUCT TOUR</span><h2>Uma jornada pensada <span>para Medicina.</span></h2><p>Quatro ambientes da versão V3: visão do estudante, flashcards, Arena e Estúdio do Criador.</p></div><span class="section-counter">01 — 04</span></div><div class="gallery-panel"><div class="gallery-head"><span><i></i> MEDSTUDY / TELAS REAIS</span><span id="gallery-count">01 / 04</span></div><button class="gallery-image" id="gallery-expand" type="button" aria-label="Ampliar captura selecionada"><img id="gallery-current" src="/assets/medstudy-dashboard.png" alt="Dashboard do MedStudy com revisões e indicadores" /><span>AMPLIAR ↗</span></button><div class="gallery-bottom"><div class="gallery-tabs" role="group" aria-label="Selecionar tela do MedStudy"><button class="selected" data-screen="dashboard" type="button" aria-pressed="true"><small>01</small> Dashboard</button><button data-screen="flashcards" type="button" aria-pressed="false"><small>02</small> Flashcards</button><button data-screen="arena" type="button" aria-pressed="false"><small>03</small> Med Arena</button><button data-screen="creator" type="button" aria-pressed="false"><small>04</small> Estúdio</button></div><p id="gallery-caption">Painel do estudante com indicadores e recomendações de revisão.</p></div></div><p class="gallery-disclaimer">Estudo de caso baseado no código e nas capturas reais do MedStudy V3. Produto em evolução; os fluxos completos não foram auditados em produção.</p></section>
+
+    <section class="section container features-section"><div class="section-heading"><div><span class="section-label">03 / FUNCIONALIDADES</span><h2>Ferramentas que trabalham <span>juntas.</span></h2></div></div><div class="feature-grid">
+      <article><span class="feature-number">01 / BIBLIOTECA</span><div class="feature-icon">▤</div><h3>Conteúdo organizado</h3><p>Materiais de estudo por tema e especialidade, com uma estrutura adequada à variedade de conteúdos da formação médica.</p></article>
+      <article><span class="feature-number">02 / PRÁTICA</span><div class="feature-icon">✳</div><h3>Questões e simulados</h3><p>Prática de conteúdos médicos e avaliações cronometradas para reconhecer dificuldades e acompanhar o desempenho.</p></article>
+      <article><span class="feature-number">03 / RETENÇÃO</span><div class="feature-icon">◎</div><h3>Flashcards e revisão SRS</h3><p>Revisões espaçadas orientadas por histórico e respostas, ajudando a retomar conteúdos antes que sejam esquecidos.</p></article>
+      <article><span class="feature-number">04 / DIAGNÓSTICO</span><div class="feature-icon">↗</div><h3>Acompanhamento do estudo</h3><p>Indicadores de progresso, padrões de erros e revisões pendentes para apoiar decisões sobre o que priorizar.</p></article>
+      <article><span class="feature-number">05 / ENGAJAMENTO</span><div class="feature-icon">⚔</div><h3>Med Arena</h3><p>Modos de jogo, XP, missões e rankings voltados a tornar a prática médica mais envolvente.</p></article>
+      <article><span class="feature-number">06 / ECOSSISTEMA</span><div class="feature-icon">✦</div><h3>Estúdio do Criador</h3><p>Espaço para produzir, publicar e gerenciar conteúdos educacionais, conectado a recursos de marketplace.</p></article>
+    </div></section>
+
+    <section class="section container architecture-section" id="arquitetura"><div class="section-side"><span class="section-label">04 / ENGENHARIA</span><div class="side-line"></div></div><div class="section-content"><h2>Por trás da experiência, <span>um sistema Full Stack.</span></h2><p class="architecture-intro">Para dar suporte a essas jornadas, organizei interface, regras de aprendizagem e persistência de dados em camadas. O desafio técnico não era apenas criar telas: era manter conteúdos, revisões, desempenho e permissões coerentes dentro da mesma plataforma.</p><div class="arch-flow"><div class="arch-node"><span>01 / EXPERIÊNCIA</span><strong>React + TypeScript</strong><small>Biblioteca, estudo, Arena e Estúdio</small></div><div class="arch-arrow">↔</div><div class="arch-node arch-main"><span>02 / REGRAS</span><strong>Serviços e revisão</strong><small>SRS, progresso, créditos e conteúdos</small></div><div class="arch-arrow">↔</div><div class="arch-node"><span>03 / DADOS</span><strong>Supabase + PostgreSQL</strong><small>SQL, RLS, funções e relações</small></div></div><div class="architecture-details"><div><span>SEGURANÇA</span><h3>Dados e permissões por perfil</h3><p>Autenticação, autorização e Row Level Security apoiam a separação de informações entre estudantes, criadores e operações da plataforma.</p></div><div><span>PRODUTO EM EVOLUÇÃO</span><h3>Aprendizagem e criação</h3><p>A estrutura contempla conteúdos publicados, créditos, transações e um ambiente de criadores. Essas funcionalidades continuam recebendo ajustes e evolução.</p></div></div></div></section>
+
+    <section class="section container challenges-section"><div class="section-heading"><div><span class="section-label">05 / DESAFIOS TÉCNICOS</span><h2>Resolver uma dor real <span>exigiu conectar muitas peças.</span></h2></div></div><div class="challenge-list"><article><span>01</span><div><h3>Transformar necessidades de estudo em funcionalidades</h3><p>Partir da rotina de uma estudante de Medicina e traduzir dificuldades de organização, prática e revisão em uma experiência de produto consistente.</p></div><b>DESCOBERTA DE PRODUTO</b></article><article><span>02</span><div><h3>Conectar erros e histórico à revisão</h3><p>Estruturar a lógica de repetição espaçada para que as atividades de estudo possam orientar revisões futuras e prioridades de aprendizagem.</p></div><b>REGRAS DE NEGÓCIO</b></article><article><span>03</span><div><h3>Modelar dados e acessos com segurança</h3><p>Relacionar conteúdos, respostas, progresso e usuários com controle de permissões em PostgreSQL e Supabase.</p></div><b>BACKEND E DADOS</b></article><article><span>04</span><div><h3>Expandir sem perder o foco educacional</h3><p>Introduzir gamificação, rankings e publicação de conteúdo mantendo a proposta central: apoiar estudantes de Medicina.</p></div><b>EVOLUÇÃO DO PRODUTO</b></article></div></section>
+
+    <section class="closing container"><span class="section-label">CONCLUSÃO / MEDSTUDY</span><h2>Uma necessidade próxima.<br /><span>Um produto com propósito.</span></h2><p>O MedStudy começou com a dificuldade real de uma estudante de Medicina e evoluiu para uma plataforma educacional independente. O projeto demonstra como conecto escuta, experiência do usuário, arquitetura e dados para desenvolver uma solução útil e em evolução contínua.</p><div><a class="primary-button" href="/#projetos">Voltar aos projetos ↗</a><a class="quiet-button" href="/#contato">Conversar sobre o projeto ↗</a></div></section>
+  </main>
+  <footer class="footer container"><span>e/b · EDUARDO BARBOSA</span><span>FULL STACK · 2026</span><a href="/#inicio">PORTFÓLIO ↑</a></footer>
+  <dialog class="lightbox" id="gallery-lightbox" aria-label="Captura ampliada"><div class="lightbox-inner"><button type="button" id="lightbox-close">FECHAR ✕</button><img id="lightbox-image" alt="" /><p id="lightbox-caption"></p></div></dialog>
+</body>
+</html>

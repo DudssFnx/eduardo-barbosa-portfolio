@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eduardo-barbosa-fullstack-2026.dudsfnx02.chatgpt.site/sitemap.xml
