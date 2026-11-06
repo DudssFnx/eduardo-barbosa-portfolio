@@ -2,7 +2,7 @@
 
 **Portfólio profissional · Projetos reais · Engenharia de software · Experiência de produto**
 
-[**🌐 Acessar portfólio**](https://eduardo-barbosa-fullstack-2026.dudsfnx02.chatgpt.site/) · [**💼 LinkedIn**](https://www.linkedin.com/in/eduardobdev/) · [**✉️ E-mail**](mailto:eduardobarbosadossantos02@gmail.com)
+[**🌐 Acessar portfólio**](https://eduardo-barbosa-portfolio.pages.dev/) · [**💼 LinkedIn**](https://www.linkedin.com/in/eduardobdev/) · [**✉️ E-mail**](mailto:eduardobarbosadossantos02@gmail.com)
 
 ---
 
